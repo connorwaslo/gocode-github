@@ -1,0 +1,128 @@
+#leadFormContainer {
+    width: 40vw;
+    height: auto;
+    margin: 4vh auto 2vh auto;
+    padding: 2vh .4vw .5vh .4vw;
+    border-radius: 3%;
+    font-family: AnkaCoder, sans-serif;
+}
+
+#leadFormContainer #inputContainer {
+    margin: 1vh auto 1vh auto;
+    text-align: center;
+}
+
+#leadFormContainer h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    #leadFormContainer p {
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    #leadFormContainer p b {
+        font-size: 3.5vw;
+    }
+
+    #leadFormContainer h1 {
+        font-size: 4vw;
+    }
+
+    .leadInput {
+        margin: .5vh 0 1vh 0;
+        width: 16vw;
+        height: 4vh;
+        font-size: 3vw;
+        white-space: normal;
+    }
+
+    input #formButton {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1250px) {
+    #leadFormContainer p {
+        font-size: 1.5vw;
+        text-align: center;
+    }
+
+    #leadFormContainer p b {
+        font-size: 2.5vw;
+    }
+
+    #leadFormContainer h1 {
+        font-size: 4vw;
+    }
+
+    .leadInput {
+        margin: .5vh 0 1vh 0;
+        width: 16vw;
+        height: 4vh;
+        font-size: 2vw;
+    }
+
+    input #formButton {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1251px) {
+    #leadFormContainer p {
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    #leadFormContainer p b {
+        font-size: 2vw;
+    }
+
+    #leadFormContainer h1 {
+        font-size: 4.5vw;
+    }
+
+    .leadInput {
+        margin: .5vh 0 1vh 0;
+        width: 16vw;
+        height: 4vh;
+        font-size: 1.5vw;
+    }
+
+    input #formButton {
+        width: auto;
+        height: auto;
+    }
+}
+
+.formButton {
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+
+    display: table-cell;
+    margin: 1vh auto;
+    max-width: 400px;
+    min-height: 40px;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 1vh 1vw 1vh 1vw;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: lightgray;
+    font-family: sans-serif;
+
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(0, 130, 176, 0.4) 0 0px 0px 2px inset;
+}
+
+.formButton:hover {
+    color: white;
+    box-shadow: rgba(0, 130, 176, 0.7) 0 0px 0px 40px inset;
+}

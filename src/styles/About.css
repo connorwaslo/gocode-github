@@ -1,0 +1,41 @@
+#aboutContainer {
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+    #aboutContainer p {
+        font-size: 3vw;
+    }
+
+    #aboutContainer h2 {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1250px) {
+    #aboutContainer p {
+        font-size: 2.5vw;
+    }
+
+    #aboutContainer h2 {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 1251px) {
+    #aboutContainer p {
+        font-size: 1.5vw;
+    }
+
+    #aboutContainer h2 {
+        font-size: 2vw;
+    }
+}
+
+#topPhrase {
+    margin-top: 3vh;
+}
+
+#bottomPhrase {
+    margin-bottom: 1vh;
+}

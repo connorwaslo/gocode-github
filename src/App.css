@@ -1,0 +1,133 @@
+#app {
+    width: 100vw;
+    min-height: 100%;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+    /*background: radial-gradient(ellipse top at 45px 45px, black 50%, gray 100%) no-repeat;
+    background-size: cover;*/
+
+    background: #b5bdc8; /* Old browsers */
+    background: -moz-linear-gradient(top, black 40%, dimgray 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, black 40%, dimgray 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, black 40%, dimgray 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#black', endColorstr='dimgray',GradientType=0 ); /* IE6-9 */
+}
+
+#app #appWrapper {
+    background: inherit;
+}
+
+#cmd {
+    margin: .2vh 0 0 .5vw;
+    color: white;
+}
+
+#cmd {
+    font-family: monospace;
+    font-size: 2vw;
+}
+
+span:after {
+    content: "_";
+    opacity: 0;
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#appWrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: 100%;
+}
+
+#appWrapper h1 {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 750px) {
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 72px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1250px) {
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+        height: 143px;
+    }
+}
+
+@media screen and (min-width: 1251px) {
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+        height: 179px;
+    }
+}
+
+img {
+    padding-top: 3vh;
+}
+
+h1 {
+    font-family: AnkaCoder, sans-serif;
+    font-size: 4vw;
+}
+
+h2 {
+    font-family: AnkaCoder, sans-serif;
+    font-size: 3vw;
+}
+
+.center {
+    text-align: center;
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+#learnMoreContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+#learnMore {
+    margin-top: 5vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+@font-face {
+    font-family: "AnkaCoder";
+    src: url('res/fonts/AnkaCoder-r.ttf');
+}
